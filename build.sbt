@@ -23,7 +23,7 @@ lazy val shared = crossProject(JSPlatform, JVMPlatform)
   .settings(
     libraryDependencies ++= Seq(
       "org.scala-lang" % "scala-reflect" % "2.12.8",
-      "org.scala-js" %% "scalajs-library" % "1.0.0-M7"
+      "org.scala-js" %% "scalajs-library" % "1.0.0-M8"
     )
   )
 lazy val sharedJvm = shared.jvm
